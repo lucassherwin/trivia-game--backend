@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Category.destroy_all
 Question.destroy_all
+User.destroy_all
 
 cat1 = Category.create!(name: "doesnt matter")
 puts cat1.name
